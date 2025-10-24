@@ -17,7 +17,7 @@ output = 'emails.csv'
 gdown.download(url, output, quiet=False)
 
 # читаем датасет
-data = pd.read_csv('emails.csv')
+data = pd.read_csv('../emails.csv')
 print('DATA=',data['email'] )
 # рассчитайте частоты для классов : ваш код здесь
 
